@@ -108,11 +108,11 @@ function NavBar() {
             >
                 <MenuItem  onClick={handleCloseNavMenu} className="menu">
                   <Typography textAlign="center" className="menu">
-										<div>
-											<div>
-										<a href="/" className='inicio'>Inicio</a>
+										<div className='menuO'>
+											<div className='inicio'>
+										<a href="/" className='inicioO'>Inicio</a>
 											</div>
-											<div>
+											<div className='inicio'>
 										<a href="/menu" className='menu'>Menú</a>
 											</div>
 											<div>

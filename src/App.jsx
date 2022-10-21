@@ -9,6 +9,7 @@ import LoginPage from "./pages/LoginPage/LoginPage";
 import Navbar from "./components/Navbar/Navbar";
 import IsPrivate from "./components/IsPrivate/IsPrivate";
 import IsAnon from "./components/IsAnon/IsAnon";
+import Menu from "./pages/MenuPage/MenuPage";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+				<Route path="/menu" element={<Menu />} />
+
 
         <Route
           path="/profile"

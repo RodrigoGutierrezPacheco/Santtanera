@@ -3,8 +3,11 @@
 	font-size: 3%;
 }
 
-
 .inicio{
+ margin-bottom: 10px;
+}
+
+.inicioO{
 	text-decoration: none;
 }
 
