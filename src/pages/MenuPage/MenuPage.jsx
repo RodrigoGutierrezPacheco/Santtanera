@@ -8,7 +8,8 @@ export default function Menu() {
   return (
 		<div>
 			<h1>Menú</h1>
-    <ImageList sx={{width: "50%", height: "100%",display:"flex",flexDirection:"column",marginLeft:"26.1%"}}>
+			<div className='categoria'>
+    <ImageList sx={{width: "99%", height: "100%",justifyContent:"center"}}>
       {itemData.map((item) => (
         <ImageListItem key={item.img} className="menuBox">
 					<h2>{item.name}</h2>
@@ -27,6 +28,7 @@ export default function Menu() {
       ))}
     </ImageList>
 		</div>
+		</div>
   );
 }
 
@@ -42,11 +44,5 @@ const itemData = [
     img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
     title: 'Burger',
     author: '@rollelflex_graphy726',
-  },
-  {
-		name:"Sin Alcohol",
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
-    author: '@helloimnik',
   },
 ];
