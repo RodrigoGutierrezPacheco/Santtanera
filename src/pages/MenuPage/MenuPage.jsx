@@ -7,7 +7,7 @@ export default function Menu() {
   return (
 		<div>
 			<h1>Menú</h1>
-    <ImageList sx={{ width: "99%", height: 450 }}>
+    <ImageList sx={{ width: "99%", height: "100%"}}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
