@@ -57,9 +57,9 @@ export default function FixedBottomNavigation() {
             setValue(newValue);
           }}
         >
-						<BottomNavigationAction label="Alimentos" icon={<LunchDiningIcon />} />
-          <BottomNavigationAction label="Bebidas" icon={<SportsBarIcon />} />
-          <BottomNavigationAction label="Pedidos" icon={<WhatsAppIcon />} />
+					<a href="/alimentos">						<BottomNavigationAction label="Alimentos" icon={<LunchDiningIcon />} /></a>
+					<a href="/bebidas"> <BottomNavigationAction label="Bebidas" icon={<SportsBarIcon />} /></a>
+          <a href="/contacto"><BottomNavigationAction label="Pedidos" icon={<WhatsAppIcon />} /></a>
         </BottomNavigation>
       </Paper>
     </Box>

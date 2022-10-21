@@ -11,6 +11,9 @@ import IsPrivate from "./components/IsPrivate/IsPrivate";
 import IsAnon from "./components/IsAnon/IsAnon";
 import Menu from "./pages/MenuPage/MenuPage";
 import Footer from "./components/Footer/Footer";
+import Alimentos from "./pages/AlimentosPage/Alimentos";
+import Bebidas from "./pages/BebidasPage/Bebidas";
+
 
 function App() {
   return (
@@ -20,8 +23,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
 				<Route path="/menu" element={<Menu />} />
-
-
+        <Route path="/alimentos" element={<Alimentos/>}/>
+        <Route path="/bebidas" element={<Bebidas/>}/>
         <Route
           path="/profile"
           element={
