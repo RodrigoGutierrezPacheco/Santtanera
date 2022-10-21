@@ -3,7 +3,26 @@ import "./HomePage.css";
 function HomePage() {
   return (
     <div>
-      <h1>Home page</h1>
+			<div>
+				<h1>Bienvenidxs a</h1>
+				<h1 className="santtanera1">Santtanera</h1>
+			</div>
+			<div>
+				<h2>Tragos Coquetitos</h2>
+       <img className="tragos" src="images/tragos.jpg" alt="" />
+			</div>
+			<div>
+				<h2>Botana Deliciosa</h2>
+				<img className="tragos" src="images/botana.jpg" alt="" />
+			</div>
+			<div>
+				<h1>Pedidos</h1>
+				<span>Contamos con servicio a domicilio, puedes pasar por tu pedidio o te lo tenemos listo a la hora que quieras para que entres a disfrutar</span>
+			</div>
+			<div>
+				<h1>Ubicacion</h1>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.069956921162!2d-103.46191748515398!3d20.544318386262802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842f55b0840152d1%3A0x6abcaefd895df89!2sSanttanera!5e0!3m2!1ses-419!2smx!4v1666395805064!5m2!1ses-419!2smx" className="mapa"/>
+			</div>
     </div>
   );
 }
