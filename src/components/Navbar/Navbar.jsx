@@ -13,7 +13,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import { Link } from '@mui/icons-material';
+import { FormatAlignJustify, Link } from '@mui/icons-material';
 import { createTheme } from '@mui/material/styles';
 import { purple,green,lime} from '@mui/material/colors';
 import { ThemeProvider } from 'styled-components';
@@ -78,7 +78,7 @@ function NavBar() {
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
+            {/* <IconButton
               size="large"
               aria-label="account of current user"
               aria-controls="menu-appbar"
@@ -87,8 +87,8 @@ function NavBar() {
               color="inherit"
             >
               <MenuIcon />
-            </IconButton>
-            <Menu
+            </IconButton> */}
+            {/* <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
@@ -122,7 +122,7 @@ function NavBar() {
 									</Typography>
                 </MenuItem>
               
-            </Menu>
+            </Menu> */}
           </Box>
           {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
@@ -140,12 +140,13 @@ function NavBar() {
               letterSpacing: '0rem',
               color: 'inherit',
               textDecoration: 'none',
-							fontSize:"1.2rem"
+							fontSize:"1.3rem",
+							FormatAlignJustify:"center"
             }}
           >
            🌴🧪Santtanera🧪🌴
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -155,7 +156,7 @@ function NavBar() {
                 {page}
               </Button>
             ))}
-          </Box>
+          </Box> */}
 
           <Box sx={{ flexGrow: 0 }}>
             {/* <Tooltip title="Open settings">

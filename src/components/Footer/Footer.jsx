@@ -17,6 +17,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { createTheme } from '@mui/material';
 import { ThemeProvider } from '@mui/material';
+import LunchDiningIcon from '@mui/icons-material/LunchDining';
+import SportsBarIcon from '@mui/icons-material/SportsBar';
+import { Link } from 'react-router-dom';
 
 const theme = createTheme({
   palette: {
@@ -54,9 +57,9 @@ export default function FixedBottomNavigation() {
             setValue(newValue);
           }}
         >
-          <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} />
-          <BottomNavigationAction label="Instagram" icon={<InstagramIcon />} />
-          <BottomNavigationAction label="Whatsapp" icon={<WhatsAppIcon />} />
+						<BottomNavigationAction label="Alimentos" icon={<LunchDiningIcon />} />
+          <BottomNavigationAction label="Bebidas" icon={<SportsBarIcon />} />
+          <BottomNavigationAction label="Pedidos" icon={<WhatsAppIcon />} />
         </BottomNavigation>
       </Paper>
     </Box>
