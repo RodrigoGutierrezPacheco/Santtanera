@@ -45,7 +45,7 @@ Relojdigital()
 				<h1 className="santtanera1">Santtanera</h1>
 				<div className='reloj'>
           <p className='fecha'></p>
-          <p className='tiempo'></p>
+					<p>Abierto</p>
           </div>
 			</div>
 			<div>
