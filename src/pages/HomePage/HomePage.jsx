@@ -40,13 +40,14 @@ Relojdigital()
 },1000);
   return (
     <div>
+				<div className='reloj'>
+          <p className='fecha'></p>
+          <p className='tiempo'></p>
+					<p>Abierto</p>
+        </div>
 			<div>
 				<h1>Bienvenidxs a</h1>
 				<h1 className="santtanera1">Santtanera</h1>
-				<div className='reloj'>
-          <p className='fecha'></p>
-					<p>Abierto</p>
-          </div>
 			</div>
 			<div>
 				<h2>Tragos Coquetitos</h2>
