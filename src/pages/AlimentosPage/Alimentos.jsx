@@ -7,8 +7,8 @@ import { display } from '@mui/system';
 
 export default function Alimentos() {
   return (
-		<div>
-			<h1>Alimentos</h1>
+		<div className='alimento'>
+			<span className='titulo'>Alimentos</span>
 			<img className='alimentos' src="images/alimento.jpg" alt="" />
     {/* <ImageList sx={{ width:"99%", height:"100%", marginLeft:".5%", display:"flex", flexDirection:"column"}}>
       {itemData.map((item) => (
