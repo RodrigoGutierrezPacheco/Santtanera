@@ -4,6 +4,8 @@
 
 .santtanera1{
 	color: greenyellow;
+	font-size: 2rem;
+	margin-bottom: 1rem;
 }
 
 .mapa{
@@ -17,16 +19,19 @@
 
 .bienvenidos{
 	background-color: black;
-	margin-top: 4.8rem;
+	margin-top: 4.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .bienvenidos1{
 	background-color: black;
-	margin-top: 0%;
 }
 
 .bienvenidxs{
 	color: white;
+	font-size: 2rem;
 }
 
 .botana{
@@ -34,7 +39,7 @@
 }
 
 .titulo{
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: 900;
 }
 

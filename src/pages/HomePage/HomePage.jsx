@@ -5,45 +5,13 @@ function HomePage() {
 
 $fecha= document.querySelector('.fecha');
 
-function Relojdigital(){
 
-let f=new Date(),
-
-dia= f.getDate(),
-
-mes= f.getMonth()+1,
-
-anio= f.getFullYear(),
-
-diaSemana=f.getDay();
-
-dia= ('0'+dia).slice(-2);
-
-mes=('0'+mes).slice(-2)
-
-let timeString= f.toLocaleTimeString();
-
-$tiempo.innerHTML=timeString;
-
-let semana=['DOMINGO','LUNES','MARTES','MIERCOLES','JUEVES','VIERNES','SABADO'];
-
-let showSemana= (semana[diaSemana])
-
-$fecha.innerHTML = `${showSemana} ${dia}-${mes}-${anio}`
-
-}
-
-setInterval(() =>{
-
-Relojdigital()
-
-},1000);
   return (
     <div>
 			<div className="bienvenidos">
-				<h1 className="bienvenidxs">Bienvenidxs a</h1>
-				<h1 className="santtanera1">Santtanera</h1>
-				<h2 className="bienvenidxs">Tragos Coquetitos</h2>
+				<span className="bienvenidxs">Bienvenidxs a</span>
+				<span className="santtanera1">Santtanera</span>
+				<span className="bienvenidxs">Tragos Coquetitos</span>
        <img className="tragos" src="images/tragos.jpg" alt="" />
 			</div>
 			<div className="botana">
