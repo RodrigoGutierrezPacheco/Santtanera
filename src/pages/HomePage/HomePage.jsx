@@ -9,9 +9,9 @@ $fecha= document.querySelector('.fecha');
   return (
     <div>
 			<div className="bienvenidos">
-				<span className="bienvenidxs">Bienvenidxs a</span>
+				<span className="titulo">Bienvenidxs a</span>
 				<span className="santtanera1">Santtanera</span>
-				<span className="bienvenidxs">Tragos Coquetitos</span>
+				<span className="titulo">Tragos Coquetitos</span>
        <img className="tragos" src="images/tragos.jpg" alt="" />
 			</div>
 			<div className="botana">

@@ -35,12 +35,14 @@
 }
 
 .botana{
-	background-color: white;
+	background-color:black;
+	color: black;
 }
 
 .titulo{
-	font-size: 2rem;
+	font-size: 110rem;
 	font-weight: 900;
+	color:black;
 }
 
 .pedidos{
