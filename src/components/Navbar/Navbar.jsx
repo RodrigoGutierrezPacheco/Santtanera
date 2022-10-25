@@ -21,7 +21,7 @@ import { ThemeProvider } from 'styled-components';
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#AABD30",
+      main: "#8cff00",
     },
     secondary: {
       main: '#f44336',
@@ -70,7 +70,7 @@ function NavBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'black',
               textDecoration: 'none',
             }}
           >
@@ -138,7 +138,7 @@ function NavBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '0rem',
-              color: 'inherit',
+              color: 'black',
               textDecoration: 'none',
 							fontSize:"1.3rem",
 							FormatAlignJustify:"center"
