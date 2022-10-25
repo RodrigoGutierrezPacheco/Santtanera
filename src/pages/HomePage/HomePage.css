@@ -14,3 +14,31 @@
 .reloj{
 	background-color: green;
 }
+
+.bienvenidos{
+	background-color: black;
+	margin-top: 4.8rem;
+}
+
+.bienvenidos1{
+	background-color: black;
+	margin-top: 0%;
+}
+
+.bienvenidxs{
+	color: white;
+}
+
+.botana{
+	background-color: white;
+}
+
+.titulo{
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+
+.pedidos{
+	background-color: black;
+	color: white;
+}

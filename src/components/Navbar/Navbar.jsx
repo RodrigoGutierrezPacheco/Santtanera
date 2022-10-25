@@ -55,7 +55,7 @@ function NavBar() {
   };
 
   return (
-    <AppBar position="static" theme={theme}>
+    <AppBar position="absolute" theme={theme}>
        <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
