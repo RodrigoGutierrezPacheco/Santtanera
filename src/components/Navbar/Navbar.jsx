@@ -21,7 +21,7 @@ import { ThemeProvider } from 'styled-components';
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#8cff00",
+      main: "#bbd650",
     },
     secondary: {
       main: '#f44336',
